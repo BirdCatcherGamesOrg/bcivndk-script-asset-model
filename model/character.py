@@ -2,7 +2,7 @@
 
 from typing import Required, TypedDict
 
-from model.user_data import UserData
+from .user_data import UserData
 
 class Character(TypedDict, total=False):
     script_name: Required[str]

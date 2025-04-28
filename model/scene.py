@@ -2,8 +2,8 @@
 
 from typing import List, Required, TypedDict
 
-from model.line import Line
-from model.user_data import UserData
+from .line import Line
+from .user_data import UserData
 
 
 class Scene(TypedDict, total=False):

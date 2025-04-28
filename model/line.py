@@ -2,7 +2,7 @@
 
 from typing import List, TypedDict
 
-from model.user_data import UserData
+from .user_data import UserData
 
 
 class Narration(TypedDict, total=False):
